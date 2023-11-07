@@ -13,6 +13,6 @@ namespace NZwalks.api.Models.DTO
 
         // Navigation properties
         public Region Region { get; set; }
-        public WalkDifficulty WalkDifficulty { get; set; }
+        public Domain.WalkDifficulty WalkDifficulty { get; set; }
     }
 }
